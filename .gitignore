@@ -31,3 +31,5 @@ postcss.config.js
 
 
 autoprefixer@tailwindcss/postcss# devDependencies
+# Local Netlify folder
+.netlify
