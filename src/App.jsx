@@ -21,7 +21,7 @@ const PRODUCTS = [
 ];
 
 const TRUST_LOGOS = [
-  "images/Trusted logo.jpg"
+  
 
 ];
 
@@ -116,8 +116,8 @@ export default function App() {
 
       {/* Floating WhatsApp + Call */}
       <div className="fixed right-6 bottom-6 flex flex-col gap-3 z-50">
-        <a href="https://wa.me/971524050997" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-full flex items-center justify-center bg-green-600 text-white shadow-xl hover:scale-105 transform transition" aria-label="WhatsApp">💬</a>
-        <a href="tel:+971524050997" className="w-14 h-14 rounded-full flex items-center justify-center bg-amber-500 text-white shadow-xl hover:scale-105 transform transition" aria-label="Call">📞</a>
+        <a href="https://wa.me/971566229072" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-full flex items-center justify-center bg-green-600 text-white shadow-xl hover:scale-105 transform transition" aria-label="WhatsApp">💬</a>
+        <a href="tel:+971566229072" className="w-14 h-14 rounded-full flex items-center justify-center bg-amber-500 text-white shadow-xl hover:scale-105 transform transition" aria-label="Call">📞</a>
       </div>
 
       {/* Header */}
@@ -287,7 +287,7 @@ export default function App() {
         <div className="md:flex md:justify-between md:items-center">
           <div>
             <h4 className="text-2xl font-extrabold">Get Export-Ready Quotes — Fast</h4>
-            <p className="mt-2 text-sm text-green-200">Send us your requirements and we will reply with a clear export quote within 24 hours.</p>
+            <p className="mt-2 text-sm text-green-200">Send us your email address if you are interested to buy we will contact you within 24 hours.</p>
           </div>
           <form onSubmit={subscribeNewsletter} className="mt-4 md:mt-0 md:flex gap-2">
             <input name="email" type="email" placeholder="Your email for quote & updates" required className="p-3 rounded-lg text-gray-800" />
